@@ -5,6 +5,7 @@ class Book:
         self.genre = genre
         self.year = year
         
+        
     def book_info(self):
         print(f"Title: {self.title}")
         print(f"Author: {self.author}")
@@ -26,5 +27,7 @@ class Library:
 library_a = Library("Rejtana 16", 09.00-21.00)
 library_b = Library("Suwak", 7/24)
 
+from book import Book
+from library import Library
 
 
